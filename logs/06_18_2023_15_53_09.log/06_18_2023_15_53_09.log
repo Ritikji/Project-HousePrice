@@ -1,0 +1,17 @@
+[ 2023-06-18 15:53:13,881 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-18 15:53:13,897 ] 224 werkzeug - INFO -  * Debugger PIN: 129-766-135
+[ 2023-06-18 15:53:24,459 ] 224 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:53:24] "GET /predict HTTP/1.1" 200 -
+[ 2023-06-18 15:53:30,797 ] 224 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:53:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-06-18 15:53:31,082 ] 224 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:53:31] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-06-18 15:53:31,297 ] 224 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:53:31] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-06-18 15:53:31,495 ] 224 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:53:31] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2023-06-18 15:53:31,514 ] 224 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:53:31] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-18 15:54:44,553 ] 67 root - INFO - Dataframe Gathered
+[ 2023-06-18 15:54:46,432 ] 53 root - INFO - Exception Occured in load_object function utils
+[ 2023-06-18 15:54:46,433 ] 28 root - INFO - Exception occured in prediction
+[ 2023-06-18 15:54:46,466 ] 224 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:54:46] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-06-18 15:54:46,500 ] 224 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:54:46] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-06-18 15:54:46,502 ] 224 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:54:46] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-06-18 15:54:46,546 ] 224 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:54:46] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-18 15:54:46,577 ] 224 werkzeug - INFO - 127.0.0.1 - - [18/Jun/2023 15:54:46] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-18 15:56:02,088 ] 224 werkzeug - INFO -  * Detected change in 'D:\\Ineuron\\Project\\HousePrice\\src\\pipeline\\prediction_pipeline.py', reloading

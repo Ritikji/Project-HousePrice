@@ -54,10 +54,3 @@ def load_object(file_path):
         raise CustomException(e,sys)
 
     
-X_train.dropna(inplace=True)
-y_train = y_train[X_train.index]
-
-X_test.dropna(inplace=True)
-y_test = y_test[X_test.index]
-
-
